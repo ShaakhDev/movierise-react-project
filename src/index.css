@@ -18,6 +18,10 @@ code {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	cursor: pointer;
+	transition: all 0.2s ease;
+}
+.play-icon:hover {
+	color: #ffffffc9 !important;
 }
 .list-inline-item .btn-outline-info {
 	color: #5a606b;
@@ -51,9 +55,33 @@ code {
 		font-size: 0.75rem;
 		padding: 0.275rem 0.7rem;
 	}
+	.mobile {
+		font-size: 16px !important;
+		padding-bottom: 0 !important;
+		margin-bottom: -15px !important;
+	}
+	.play-icon {
+		font-size: 40px !important;
+	}
+	.play-icon:hover {
+		color: #ffffffc9 !important;
+		transition: all 0.2s ease;
+	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.persons {
 		width: 160px;
+	}
+	.mobile {
+		font-size: 16px !important;
+		padding-bottom: 0 !important;
+		margin-bottom: -10px !important;
+	}
+	.play-icon {
+		font-size: 40px !important;
+	}
+	.play-icon:hover {
+		color: #ffffffc9 !important;
+		transition: all 0.2s ease;
 	}
 }

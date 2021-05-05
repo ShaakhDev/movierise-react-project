@@ -141,7 +141,7 @@ export function MovieDetail({ match }) {
 						src={`http://image.tmdb.org/t/p/original/${detail.backdrop_path}`}
 						alt={detail.title}
 					></img>
-					<div className="carousel-caption" style={{ fontSize: 35 }}>
+					<div className="mobile carousel-caption" style={{ fontSize: 35 }}>
 						{detail.title}
 					</div>
 					<FaRegPlayCircle
