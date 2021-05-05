@@ -143,6 +143,7 @@ export function Home() {
 			</div>
 		);
 	});
+
 	return (
 		<div className="container">
 			<div className="row mt-2">
@@ -241,16 +242,16 @@ export function Home() {
 							<p>
 								<strong>
 									<FaMapMarkerAlt /> Address:
-								</strong>{" "}
-								city, state, country
+								</strong>
+								Termez, Surkhandarya, Uzbekistan
 							</p>
 						</li>
 						<li>
 							<p>
 								<strong>
 									<FaPhone /> Phone:
-								</strong>{" "}
-								+011 123-45-67
+								</strong>
+								+998 580-84-95
 							</p>
 						</li>
 						<li>
@@ -258,8 +259,11 @@ export function Home() {
 								<strong>
 									<FiMail /> Email:
 								</strong>{" "}
-								infomail@info.com
+								shohbobolov98@gmail.com
 							</p>
+						</li>
+						<li className="list-inline-item" style={{ marginTop: "30px" }}>
+							<p> 2021 Powered by SHAKHZOD</p>
 						</li>
 					</ul>
 				</div>
