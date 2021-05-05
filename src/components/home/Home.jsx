@@ -262,7 +262,7 @@ export function Home() {
 								shohbobolov98@gmail.com
 							</p>
 						</li>
-						<li className="list-inline-item" style={{ marginTop: "30px" }}>
+						<li style={{ marginTop: "30px", fontWeight:'bolder' }}>
 							<p> 2021 Powered by SHAKHZOD</p>
 						</li>
 					</ul>
