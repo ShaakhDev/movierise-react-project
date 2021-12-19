@@ -49,6 +49,7 @@ export function Home() {
 			<div
 				style={{ height: 500, width: "100%", alignItems: "center" }}
 				key={index}
+				className="overlay"
 			>
 				<FaRegPlayCircle
 					className="play-icon"
@@ -262,7 +263,7 @@ export function Home() {
 								shohbobolov98@gmail.com
 							</p>
 						</li>
-						<li style={{ marginTop: "30px", fontWeight:'bolder' }}>
+						<li style={{ marginTop: "30px", fontWeight: "bolder" }}>
 							<p> 2021 Powered by SHAKHZOD</p>
 						</li>
 					</ul>

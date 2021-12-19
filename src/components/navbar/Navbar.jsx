@@ -18,10 +18,10 @@ export default function Navbar() {
 						movie<span className="rise">rise</span>
 					</Link>
 					<div className={click ? "btn-container  active" : "btn-container"}>
-						<Link className="btn-link" onClick={closeMobileMenu}>
+						<Link to="/" className="btn-link" onClick={closeMobileMenu}>
 							<button className="btn--borderNone">Sign in</button>
 						</Link>
-						<Link className="btn-link" onClick={closeMobileMenu}>
+						<Link to="/" className="btn-link" onClick={closeMobileMenu}>
 							<button className="btn--info">Sign up</button>
 						</Link>
 					</div>

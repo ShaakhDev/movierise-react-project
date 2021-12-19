@@ -136,13 +136,15 @@ export function MovieDetail({ match }) {
 					}}
 				></MoviePlayerModal>
 				<div className="col text-center" style={{ width: "100%" }}>
-					<img
-						className="img-fluid"
-						src={`http://image.tmdb.org/t/p/original/${detail.backdrop_path}`}
-						alt={detail.title}
-					></img>
-					<div className="mobile carousel-caption" style={{ fontSize: 35 }}>
-						{detail.title}
+					<div className="detail-overlay">
+						<img
+							className="img-fluid "
+							src={`http://image.tmdb.org/t/p/original/${detail.backdrop_path}`}
+							alt={detail.title}
+						></img>
+						<div className="mobile carousel-caption" style={{ fontSize: 35 }}>
+							{detail.title}
+						</div>
 					</div>
 					<FaRegPlayCircle
 						onClick={() => setIsOpen(true)}
